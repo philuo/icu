@@ -1,0 +1,55 @@
+{
+    "collationUCAData": "implicithan",
+    "localeFilter": {
+        "filterType": "locale",
+        "includeChildren": false,
+        "whitelist": [
+            "root",
+            "en",
+            "zh_CN"
+        ]
+    },
+    "featureFilters": {
+        "unames": {
+            "filterType": "exclude"
+        },
+        "translit": {
+            "filterType": "exclude"
+        },
+        "stringprep": {
+            "filterType": "exclude"
+        },
+        "brkitr_dictionaries": {
+            "blacklist": [
+                "*"
+            ]
+        },
+        "curr_tree": {
+            "filterType": "locale",
+            "whitelist": [
+                "root",
+                "en",
+                "zh_CN"
+            ]
+        },
+        "zone_tree": {
+            "filterType": "locale",
+            "whitelist": [
+                "root",
+                "en",
+                "zh_CN"
+            ]
+        }
+    },
+    "resourceFilters": [
+        {
+            "categories": [
+                "locales_tree"
+            ],
+            "rules": [
+                "-/*/measurementSystemNames",
+                "-/*/delimiters"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,451 @@
+{
+  "collationUCAData": "implicithan",
+  "localeFilter": {
+    "filterType": "language",
+    "includelist": [
+      "root",
+      "en",
+      "zh"
+    ]
+  },
+  "featureFilters": {
+    "brkitr_adaboost": {
+      "filterType": "exclude"
+    },
+    "brkitr_dictionaries": {
+      "includelist": [
+        "cjdict"
+      ]
+    },
+    "brkitr_rules": {
+      "excludelist": [
+        "title",
+        "word_POSIX",
+        "word_ja"
+      ]
+    },
+    "brkitr_tree": {
+      "excludelist": [
+        "en_US_POSIX"
+      ]
+    },
+    "conversion_mappings": {
+      "includelist": [
+        "utf-8"
+      ]
+    },
+    "curr_tree": {
+      "filterType": "language",
+      "includelist": [
+        "root",
+        "en",
+        "zh"
+      ]
+    },
+    "coll_tree": {
+      "filterType": "language",
+      "includelist": [
+        "root",
+        "en",
+        "zh"
+      ]
+    },
+    "rbnf_tree": {
+      "includelist": [
+        "zh"
+      ]
+    },
+    "region_tree": {
+      "filterType": "language",
+      "includelist": [
+        "root",
+        "en",
+        "zh"
+      ]
+    },
+    "stringprep": {
+      "filterType": "exclude"
+    },
+    "unames": {
+      "filterType": "exclude"
+    },
+    "translit": {
+      "filterType": "language",
+      "includelist": [
+        "root",
+        "en",
+        "zh"
+      ]
+    },
+    "unit_tree": {
+      "filterType": "language",
+      "includelist": [
+        "root",
+        "en",
+        "zh"
+      ]
+    },
+    "zone_tree": {
+      "filterType": "language",
+      "includelist": [
+        "root",
+        "tzdbNames",
+        "en",
+        "zh"
+      ]
+    }
+  },
+  "resourceFilters": [
+    {
+      "categories": [
+        "locales_tree"
+      ],
+      "rules": [
+        "-/*/mon",
+        "-/*/mon-short",
+        "-/*/mon-narrow",
+        "-/*/tue",
+        "-/*/tue-short",
+        "-/*/tue-narrow",
+        "-/*/wed",
+        "-/*/wed-short",
+        "-/*/wed-narrow",
+        "-/*/thu",
+        "-/*/thu-short",
+        "-/*/thu-narrow",
+        "-/*/fri",
+        "-/*/fri-short",
+        "-/*/fri-narrow",
+        "-/*/sat",
+        "-/*/sat-short",
+        "-/*/sat-narrow",
+        "-/*/sun",
+        "-/*/sun-short",
+        "-/*/sun-narrow",
+        "-/*/mon-short:alias",
+        "-/*/mon-narrow:alias",
+        "-/*/tue-short:alias",
+        "-/*/tue-narrow:alias",
+        "-/*/wed-short:alias",
+        "-/*/wed-narrow:alias",
+        "-/*/thu-short:alias",
+        "-/*/thu-narrow:alias",
+        "-/*/fri-short:alias",
+        "-/*/fri-narrow:alias",
+        "-/*/sat-short:alias",
+        "-/*/sat-narrow:alias",
+        "-/*/sun-short:alias",
+        "-/*/sun-narrow:alias",
+        "-/characterLabel",
+        "-/AuxExemplarCharacters",
+        "-/ExemplarCharacters",
+        "-/ExemplarCharactersNumbers",
+        "-/ExemplarCharactersPunctuation",
+        "-/measurementSystemNames",
+        "-/NumberElements/minimalPairs",
+        "-/personNames"
+      ]
+    },
+    {
+      "categories": [
+        "lang_tree"
+      ],
+      "rules": [
+        "-/Languages",
+        "-/Languages%long",
+        "-/Languages%menu",
+        "-/Languages%variant",
+        "+/*/en",
+        "+/*/zh",
+        "+/*/en_US",
+        "+/*/en_GB",
+        "+/*/zh_Hans",
+        "+/*/zh_Hant",
+        "-/Keys",
+        "-/Types",
+        "-/Types%short",
+        "+/Types/calendar",
+        "-/characterLabelPattern",
+        "-/Variants"
+      ]
+    },
+    {
+      "categories": [
+        "curr_tree"
+      ],
+      "rules": [
+        "-/Currencies",
+        "-/Currencies%narrow",
+        "-/CurrencyPlurals",
+        "+/*/AED",
+        "+/*/AFN",
+        "+/*/ALL",
+        "+/*/AMD",
+        "+/*/ANG",
+        "+/*/AOA",
+        "+/*/ARS",
+        "+/*/AUD",
+        "+/*/AWG",
+        "+/*/AZN",
+        "+/*/BAM",
+        "+/*/BBD",
+        "+/*/BDT",
+        "+/*/BGN",
+        "+/*/BHD",
+        "+/*/BIF",
+        "+/*/BMD",
+        "+/*/BND",
+        "+/*/BOB",
+        "+/*/BRL",
+        "+/*/BSD",
+        "+/*/BTN",
+        "+/*/BWP",
+        "+/*/BYN",
+        "+/*/BZD",
+        "+/*/CAD",
+        "+/*/CDF",
+        "+/*/CHF",
+        "+/*/CLP",
+        "+/*/CNY",
+        "+/*/COP",
+        "+/*/CRC",
+        "+/*/CUC",
+        "+/*/CUP",
+        "+/*/CVE",
+        "+/*/CZK",
+        "+/*/DJF",
+        "+/*/DKK",
+        "+/*/DOP",
+        "+/*/DZD",
+        "+/*/EGP",
+        "+/*/ERN",
+        "+/*/ETB",
+        "+/*/EUR",
+        "+/*/FJD",
+        "+/*/FKP",
+        "+/*/GBP",
+        "+/*/GEL",
+        "+/*/GHS",
+        "+/*/GIP",
+        "+/*/GMD",
+        "+/*/GNF",
+        "+/*/GTQ",
+        "+/*/GYD",
+        "+/*/HKD",
+        "+/*/HNL",
+        "+/*/HRK",
+        "+/*/HTG",
+        "+/*/HUF",
+        "+/*/IDR",
+        "+/*/ILS",
+        "+/*/INR",
+        "+/*/IQD",
+        "+/*/IRR",
+        "+/*/ISK",
+        "+/*/JMD",
+        "+/*/JOD",
+        "+/*/JPY",
+        "+/*/KES",
+        "+/*/KGS",
+        "+/*/KHR",
+        "+/*/KMF",
+        "+/*/KPW",
+        "+/*/KRW",
+        "+/*/KWD",
+        "+/*/KYD",
+        "+/*/KZT",
+        "+/*/LAK",
+        "+/*/LBP",
+        "+/*/LKR",
+        "+/*/LRD",
+        "+/*/LSL",
+        "+/*/LYD",
+        "+/*/MAD",
+        "+/*/MDL",
+        "+/*/MGA",
+        "+/*/MKD",
+        "+/*/MMK",
+        "+/*/MNT",
+        "+/*/MOP",
+        "+/*/MRU",
+        "+/*/MUR",
+        "+/*/MVR",
+        "+/*/MWK",
+        "+/*/MXN",
+        "+/*/MYR",
+        "+/*/MZN",
+        "+/*/NAD",
+        "+/*/NGN",
+        "+/*/NIO",
+        "+/*/NOK",
+        "+/*/NPR",
+        "+/*/NZD",
+        "+/*/OMR",
+        "+/*/PAB",
+        "+/*/PEN",
+        "+/*/PGK",
+        "+/*/PHP",
+        "+/*/PKR",
+        "+/*/PLN",
+        "+/*/PYG",
+        "+/*/QAR",
+        "+/*/RON",
+        "+/*/RSD",
+        "+/*/RUB",
+        "+/*/RWF",
+        "+/*/SAR",
+        "+/*/SBD",
+        "+/*/SCR",
+        "+/*/SDG",
+        "+/*/SEK",
+        "+/*/SGD",
+        "+/*/SHP",
+        "+/*/SLL",
+        "+/*/SOS",
+        "+/*/SRD",
+        "+/*/SSP",
+        "+/*/STN",
+        "+/*/SVC",
+        "+/*/SYP",
+        "+/*/SZL",
+        "+/*/THB",
+        "+/*/TJS",
+        "+/*/TMT",
+        "+/*/TND",
+        "+/*/TOP",
+        "+/*/TRY",
+        "+/*/TTD",
+        "+/*/TWD",
+        "+/*/TZS",
+        "+/*/UAH",
+        "+/*/UGX",
+        "+/*/USD",
+        "+/*/UYU",
+        "+/*/UZS",
+        "+/*/VES",
+        "+/*/VND",
+        "+/*/VUV",
+        "+/*/WST",
+        "+/*/XAF",
+        "+/*/XCD",
+        "+/*/XDR",
+        "+/*/XOF",
+        "+/*/XPF",
+        "+/*/XSU",
+        "+/*/YER",
+        "+/*/ZAR",
+        "+/*/ZMW",
+        "+/*/ZWL",
+        "-/Currencies%formal",
+        "-/Currencies%variant"
+      ]
+    },
+    {
+      "categories": [
+        "region_tree"
+      ],
+      "rules": [
+        "-/*/001",
+        "-/*/002",
+        "-/*/003",
+        "-/*/005",
+        "-/*/009",
+        "-/*/011",
+        "-/*/013",
+        "-/*/014",
+        "-/*/015",
+        "-/*/017",
+        "-/*/018",
+        "-/*/019",
+        "-/*/021",
+        "-/*/029",
+        "-/*/030",
+        "-/*/034",
+        "-/*/035",
+        "-/*/039",
+        "-/*/053",
+        "-/*/054",
+        "-/*/057",
+        "-/*/061",
+        "-/*/142",
+        "-/*/143",
+        "-/*/145",
+        "-/*/150",
+        "-/*/151",
+        "-/*/154",
+        "-/*/155",
+        "-/*/202"
+      ]
+    },
+    {
+      "categories": [
+        "coll_tree"
+      ],
+      "rules": [
+        "-/UCARules",
+        "-/collations/*/Sequence"
+      ]
+    },
+    {
+      "categories": [
+        "coll_tree"
+      ],
+      "files": {
+        "includelist": [
+          "zh"
+        ]
+      },
+      "rules": [
+        "-/*/unihan",
+        "-/*/big5han",
+        "-/*/gb2312han"
+      ]
+    },
+    {
+      "categories": [
+        "misc"
+      ],
+      "files": {
+        "includelist": [
+          "supplementalData"
+        ]
+      },
+      "rules": [
+        "-/*",
+        "+/calendarData",
+        "+/calendarPreferenceData",
+        "+/cldrVersion",
+        "+/codeMappings",
+        "+/idValidity",
+        "+/measurementData",
+        "+/territoryContainment",
+        "+/timeData",
+        "+/weekData",
+        "+/weekData%variant"
+      ]
+    },
+    {
+      "categories": [
+        "zone_tree"
+      ],
+      "rules": [
+        "-/zoneStrings/Africa:Abidjan",
+        "-/zoneStrings/Pacific:Wallis"
+      ]
+    },
+    {
+      "categories": [
+        "brkitr_tree",
+        "coll_tree",
+        "curr_tree",
+        "lang_tree",
+        "region_tree",
+        "unit_tree",
+        "zone_tree"
+      ],
+      "rules": [
+        "-/Version"
+      ]
+    }
+  ]
+}
